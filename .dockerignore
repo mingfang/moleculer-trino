@@ -1,0 +1,6 @@
+Dockerfile
+.env
+.DS_Store
+node_modules
+.idea
+*.iml

@@ -1,0 +1,20 @@
+{
+  "name": "moleculer-trino",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "NODE_ENV=development moleculer-runner --repl --hot services/**/*.service.js",
+    "start": "NODE_ENV=production moleculer-runner  services/**/*.service.js",
+    "docker:build": "docker build -t moleculer-trino ."
+  },
+  "devDependencies": {
+    "moleculer-cli": "^0.8.0",
+    "moleculer-repl": "^0.7.3"
+  },
+  "dependencies": {
+    "json-bigint": "^1.0.0",
+    "luxon": "^3.0.4",
+    "moleculer": "^0.14.24",
+    "moleculer-web": "^0.10.4",
+    "presto-client": "^0.12.2"
+  }
+}
